@@ -4,7 +4,7 @@
 
 When you assign roles, you must specify a scope. Scope is the set of resources the access applies to. In Azure, you can specify a scope at four levels from broad to narrow: management group, subscription, resource group, and resource.
 
-https://docs.microsoft.com/en-us/azure/includes/role-based-access-control/media/scope-levels.png
+![img16](../img/img16.png)
 
 1. Sign in to the Azure portal.
 
@@ -14,7 +14,7 @@ https://docs.microsoft.com/en-us/azure/includes/role-based-access-control/media/
 
 4. The following shows an example resource group.
 
-https://docs.microsoft.com/en-us/azure/role-based-access-control/media/shared/rg-overview.png
+![img17](../img/img17.png)
 
 ## Step 2: Open the Add role assignment page
 
@@ -24,7 +24,7 @@ Access control (IAM) is the page that you typically use to assign roles to grant
 
 The following shows an example of the Access control (IAM) page for a resource group.
 
-https://docs.microsoft.com/en-us/azure/role-based-access-control/media/shared/rg-access-control.png
+![img18](../img/img18.png)
 
 2. Click the Role assignments tab to view the role assignments at this scope.
 
@@ -32,7 +32,7 @@ https://docs.microsoft.com/en-us/azure/role-based-access-control/media/shared/rg
 
 If you don't have permissions to assign roles, the Add role assignment option will be disabled.
 
-https://docs.microsoft.com/en-us/azure/role-based-access-control/media/shared/add-role-assignment-menu.png
+![img19](../img/img19.png)
 
 The Add role assignment page opens.
 
@@ -42,11 +42,11 @@ The Add role assignment page opens.
 
 You can search for a role by name or by description. You can also filter roles by type and category.
 
-https://docs.microsoft.com/en-us/azure/role-based-access-control/media/shared/roles.png
+![img20](../img/img20.png)
 
 2. In the Details column, click View to get more details about a role.
 
-https://docs.microsoft.com/en-us/azure/role-based-access-control/media/role-assignments-portal/select-role-permissions.png
+![img21](../img/img21.png)
 
 3. Click Next.
 
@@ -54,7 +54,7 @@ https://docs.microsoft.com/en-us/azure/role-based-access-control/media/role-assi
 
 1. On the Members tab, select User, group, or service principal to assign the selected role to one or more Azure AD users, groups, or service principals (applications).
 
-https://docs.microsoft.com/en-us/azure/role-based-access-control/media/shared/members.png
+![img22](../img/img22.png)
 
 2. Click Select members.
 
@@ -62,7 +62,7 @@ https://docs.microsoft.com/en-us/azure/role-based-access-control/media/shared/me
 
 You can type in the Select box to search the directory for display name or email address.
 
-https://docs.microsoft.com/en-us/azure/role-based-access-control/media/shared/select-members.png
+![img23](../img/img23.png)
 
 4. Click Select to add the users, groups, or service principals to the Members list.
 
@@ -76,7 +76,7 @@ https://docs.microsoft.com/en-us/azure/role-based-access-control/media/shared/se
 
 For system-assigned managed identities, you can select managed identities by Azure service instance.
 
-https://docs.microsoft.com/en-us/azure/role-based-access-control/media/role-assignments-portal/select-managed-identity.png
+![img24](../img/img24.png)
 
 9. Click Select to add the managed identities to the Members list.
 
